@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+span{
+    border: 10px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+div{
+    border: 10px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 10px;
+
+}

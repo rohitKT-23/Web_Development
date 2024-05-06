@@ -1,0 +1,16 @@
+.box {
+    width: 200px;
+    height: 100px;
+    font-size: 16px;
+    border: 2px solid #000;
+  } 
+
+  /* .box {
+    width: 5cm; 
+    height: 2cm;
+}  */
+
+  .text {
+    font-size: 10mm;
+  }
+  

@@ -1,0 +1,35 @@
+/*ELEMENT SELECTOR*/
+h1{
+    color: rgb(255, 0, 0);
+}
+
+/*ID SELECTOR*/
+#rohit{
+    color: blue;
+}
+
+#arsh{
+    background-color: aqua;
+}
+
+#kanhiya{
+    color: green;
+}
+
+/*CLASS SELECTOR*/
+.clr{
+    color: blueviolet;
+}
+
+/*ATTRIBUTE SELECTOR*/
+input[type="text"]{
+    background-color: aquamarine;
+    color: black;
+}
+
+/*UNIVERSAL SELECTOR*/
+
+* {
+    border: 2px solid black;
+    border-color: greenyellow;
+}

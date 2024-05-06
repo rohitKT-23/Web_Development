@@ -1,0 +1,27 @@
+/* Normal link styles */
+a {
+    text-decoration:#2ecc40;
+    color: #ff0000;
+}
+
+/* Hover pseudo-class */
+a:hover {
+    color: #ff4136;
+}
+
+/* Focus pseudo-class */
+input[type="text"]:focus {
+    border: 4px solid #ff851b;
+    background-color: aqua;
+}
+
+/* Active pseudo-class */
+button:active {
+    background-color: #2ecc40;
+    color: #fff;
+}
+
+/* Visited pseudo-class */
+a:visited {
+    color: #b10dc9;
+}

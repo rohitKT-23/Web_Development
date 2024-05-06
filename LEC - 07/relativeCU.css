@@ -1,0 +1,28 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+strong {
+    font-size: 2em;
+}
+
+img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 5vmin;
+    margin: 2vw;
+}
+
+div {
+    margin: 20vw;
+}

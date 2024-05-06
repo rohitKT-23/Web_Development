@@ -1,0 +1,19 @@
+/* Descendant Combinator (space) */
+.container p {
+    color: blue;
+}
+
+/* Child Combinator (>) */
+.container > ul {
+    background-color: lightgray;
+}
+
+/* Adjacent Sibling Combinator (+) */
+h2 + p {
+    font-weight: bold;
+}
+
+/* General Sibling Combinator (~) */
+h2 ~ p {
+    font-style: italic;
+}
