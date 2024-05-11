@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    width: 100px;
+    height: 50px;
+    margin: 20px 0;                                                          
+}
+
+section:hover div{
+    width: 100vw;
+    transition-duration: 5000ms;
+}
+
+    #rkt1{transition-timing-function: linear;}
+    #rkt2{transition-timing-function: ease-in;}
+    #rkt3{transition-timing-function: ease-out;}
+    #rkt4{transition-timing-function: ease-in-out;}
+    

@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+}
+
+div {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    transition: color 0.3s; /* Add smooth transition for color change */
+}
+
+a:hover {
+    color: blue; /* Change the color on hover */
+    background-color: rgb(0, 200, 255);
+    border-radius: 5px;
+    padding: auto;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        min-height: 150px;
+    }
+    div {
+        flex-direction: column;
+        align-items: center;
+    }
+    a {
+        margin: 10px;
+    }
+}
